@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spring-boot-kubernates
+  labels:
+    role: webapp
+spec:
+  containers:
+    - name: web
+      image: shreyasvh/spring-boot-docker:latest

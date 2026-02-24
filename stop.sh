@@ -1,0 +1,1 @@
+kubectl delete pod spring-boot-kubernates
