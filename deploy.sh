@@ -1,6 +1,6 @@
 PID_FILE=spring-boot-portforward.pid
 if [[ ! -f "$PID_FILE" ]]; then
-    echo "Starting"
+  echo "Starting"
     
 	kubectl apply -f pod.yaml
 	kubectl wait --for=condition=Ready pod/spring-boot-kubernates --timeout=120s

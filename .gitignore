@@ -1,3 +1,5 @@
 .idea
 .envrc
 portForward.log
+spring-boot-portforward.pid
+pod.yaml
